@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="Logo_ScaphyData_2025_ico.jpg" />
+	<title>Scaphy 3D</title>
+
+	<style>
+		body, html {
+			margin: 0; 
+			padding: 0; 
+			overflow: hidden;
+			width: 100%;
+			height: 100%;
+		}
+		canvas {
+			width: 100%;
+			height: 100%;
+		}	
+	</style>
+</head>
+<body>
+	<div id="output"></div>
+	<h1>Scaphy 3D</h1>
+	<h2>Se diriger: LES 4 FLECHES OU Z:AVANCER - Q:GAUCHE - D:DROITE - S:RECULER - Clic & Drag : move camera.</h2>
+	<h3>Click on the sky please :)</h3>
+	<h4>Et ensuite cliquer sur les cubes pour accéder aux sites Web ;)</H4>
+	<canvas id="renderCanvas"></canvas>
+
+	<script src="https://cdn.jsdelivr.net/npm/babylonjs@8.8.3/babylon.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/babylonjs-materials@8.8.3/babylonjs.materials.min.js"></script>
+	<script src="js/demo.js"></script>
+	<script src="js/dom.js"></script>
+	<script>
+		runDemo("renderCanvas");
+	</script>
+</body>
+</html>
