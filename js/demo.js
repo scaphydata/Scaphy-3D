@@ -55,14 +55,16 @@ function runDemo(canvasId) {
 
     // Ajout de cubes aux coins
     var positions = [
-        { x: -15, z: 15, url: "https://scaphydata.com/testfondvideo/", image: "images/testFondVideo.PNG" },
-        { x: -7.5, z: 7.5, url: "https://scaphydata.com/Exercice10HTMLCSS3/", image: "images/exercice10htmlcss3.png"},
+        { x: 7.5, z: 7.5, url: "https://scaphydata.com/testfondvideo/", image: "images/testFondVideo.PNG" },
+        { x: 0, z: 0, url: "https://scaphydata.com", image: "images/escalier.jpg" },
+        { x: 7.5, z: -7.5, url: "https://scaphydata.com/Exercice10HTMLCSS3/", image: "images/exercice10htmlcss3.png"},
         { x: -15, z: -15,  url: "https://scaphydata.com/WolfGang/", image: "images/WolfGang.PNG" },
         { x: -7.5, z: -7.5, url: "https://scaphydata.com/grandRestaurantStatique/", image: "images/grandRestaurant.PNG" },
         { x: 15, z: 15, url: "https://scaphydata.com/JohnDoePortofolio/", image: "images/JohnDoePortofolio.PNG" },
-        { x: 7.5, z: 7.5, url: "https://scaphydata.com/fournituresdemusculation/", image: "images/fournituresdemusculation.PNG" },
+        { x: -7.5, z: 7.5, url: "https://scaphydata.com/fournituresdemusculation/", image: "images/fournituresdemusculation.PNG" },
         { x: 15, z: -15, url: "https://scaphydata.com/RealityGroup/", image: "images/RealityGroup.PNG" },
-        { x: 7.5, z: -7.5, url: "https://scaphydata.com/illaYoga/", image: "images/illaYoga.PNG" }
+        { x: 15, z: 0, url: "https://scaphydata.com/illaYoga/", image: "images/illaYoga.PNG" },
+        { x: -15, z: 15, url: "https://scaphydata.com/", image: "images/Logo_ScaphyData_2025.png" }
     ];
     var cubeSize = 3.5;
 
