@@ -10,7 +10,7 @@ function runDemo(canvasId) {
     scene.collisionsEnabled = true;
 
     // Ajout d'une caméra et de son contrôleur
-    var camera = new BABYLON.FreeCamera("MainCamera", new BABYLON.Vector3(13, 2.5, -24), scene);
+    var camera = new BABYLON.FreeCamera("MainCamera", new BABYLON.Vector3(11, 2.5, -36), scene);
     camera.rotation.y = 0;
     camera.applyGravity = true;
     camera.checkCollisions = true;
